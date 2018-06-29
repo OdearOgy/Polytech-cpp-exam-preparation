@@ -8,7 +8,7 @@ int main() {
 
   std::cout << "Enter the number of data: ";
   std::cin >> n;
-
+ 
   for (i = 0; i < n; i++) {
     std::cout << i + 1 << ". Enter number: ";
     std::cin >> num[i];
