@@ -6,7 +6,7 @@ int main() {
   int n, i, positive_count = 0;
   float num[1000], sum = 0.0, average;
 
-  std::cout << "Enter the numbers of data: ";
+  std::cout << "Enter the number of data: ";
   std::cin >> n;
 
   for (i = 0; i < n; i++) {
@@ -14,7 +14,7 @@ int main() {
     std::cin >> num[i];
     if (num[i] > 0) {
       positive_count++;
-      sum += num[i];
+      sum += pow(num[i], 2);
       average = sum / positive_count;
     }
   }
