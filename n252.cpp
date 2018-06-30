@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 
-int main() {
+int main() { 
   int n, i, j, a, b, product = 1;
   float num[1000];
 
