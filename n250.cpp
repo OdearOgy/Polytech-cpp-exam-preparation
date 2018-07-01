@@ -3,13 +3,13 @@
 #include <cmath>
 
 int main() {
-  int n, i, k, number_count = 0, positive_count = 0, negative_count = 0;
+  int n, k, number_count = 0, positive_count = 0, negative_count = 0;
   float num[1000];
 
   std::cout << "Enter the numbers of data: ";
   std::cin >> n;
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     std::cout << i + 1 << ". Enter number: ";
     std::cin >> num[i];
     if (num[i] > 0) {

@@ -3,7 +3,7 @@
 #include <cmath>
 
 int main() {
-  int n, i, k, number_count = 0;
+  int n, k, number_count = 0;
   float num[1000];
 
   std::cout << "Enter the numbers of data: ";
@@ -11,7 +11,7 @@ int main() {
   std::cout << "Enter thenumber of your preference: ";
   std::cin >> k;
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     if (i % k == 0) {
       number_count++;
     }

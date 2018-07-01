@@ -3,7 +3,7 @@
 #include <cmath>
 
 int main() {
-  int n, i, k, sum = 0;
+  int n, k, sum = 0;
   float num[1000];
 
   std::cout << "Enter the numbers of data: ";
@@ -11,7 +11,7 @@ int main() {
   std::cout << "Enter a positive number: ";
   std::cin >> k;
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     std::cout << i + 1 << ". Enter number: ";
     std::cin >> num[i];
 

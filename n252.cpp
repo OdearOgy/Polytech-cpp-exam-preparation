@@ -2,14 +2,14 @@
 #include <string>
 #include <cmath>
 
-int main() { 
-  int n, i, j, a, b, product = 1;
+int main() {
+  int n, a, b, product = 1;
   float num[1000];
 
   std::cout << "Enter the numbers of data: ";
   std::cin >> n;
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     std::cout << i + 1 << ". Enter number: ";
     std::cin >> num[i];
   }
@@ -19,7 +19,7 @@ int main() {
   std::cout << "Enter a number greater than previus one: ";
   std::cin >> b;
 
-  for (j = a - 1; j < b - 1; j++) {
+  for (int j = a - 1; j < b - 1; j++) {
     product *= num[j];
   }
 
